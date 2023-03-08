@@ -16,7 +16,7 @@ jobs:
       env:
           WLE_CREDENTIALS: ${{ secrets.WLE_CREDENTIALS }}
     - name: Gzip
-      run: gzip -k deploy/*
+      run: gzip -k -r deploy/*
     - name: Upload package artifact
       uses: actions/upload-artifact@v2
       with:
