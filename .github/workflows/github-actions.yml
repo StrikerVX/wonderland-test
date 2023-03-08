@@ -11,7 +11,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Package
-      run: /usr/local/bin/entrypoint.sh WonderlandEditor --windowless --package --project Project.wlp --credentials "$WLE_CREDENTIALS"
+      run: /usr/local/bin/entrypoint.sh WonderlandEditor --windowless --package --project MyWonderland.wlp --credentials "$WLE_CREDENTIALS"
       env:
           WLE_CREDENTIALS: ${{ secrets.WLE_CREDENTIALS }}
     - name: Gzip
@@ -19,7 +19,7 @@ jobs:
     - name: Upload package artifact
       uses: actions/upload-artifact@v2
       with:
-        name: Project-deploy
+        name: wonderland-test
         path: deploy/
   deploy:
     needs: package
