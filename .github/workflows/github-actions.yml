@@ -5,7 +5,7 @@ permissions:
 
 jobs:
   package:
-    runs-on: ubuntu-20.04
+    runs-on: windows-latest
     container:
       image: wonderlandengine/editor:latest
     steps:
@@ -23,7 +23,7 @@ jobs:
         path: deploy/
   deploy:
     needs: package
-    runs-on: ubuntu-20.04
+    runs-on: windows-latest
     steps:
     - uses: actions/checkout@v2
     - name: Download package artifact
