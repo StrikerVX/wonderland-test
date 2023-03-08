@@ -11,7 +11,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: package
-      run: /usr/local/bin/entrypoint.sh WonderlandEditor --windowless --package --project MyWonderland.wlp --credentials "$WLE_CREDENTIALS"
+      run: apt install libatomic1 /usr/local/bin/entrypoint.sh WonderlandEditor --windowless --package --project MyWonderland.wlp --credentials "$WLE_CREDENTIALS"
       env:
           WLE_CREDENTIALS: ${{ secrets.WLE_CREDENTIALS }}
     - name: Gzip
