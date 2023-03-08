@@ -1,0 +1,5076 @@
+{
+    "objects": {
+        "14": {
+            "name": "Player",
+            "translation": [
+                -2.5,
+                0.0,
+                1.1575535
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                0.9999998,
+                1.0,
+                0.9999998
+            ]
+        },
+        "15": {
+            "name": "FloorPlane",
+            "components": [
+                {
+                    "type": "mesh",
+                    "mesh": {
+                        "mesh": "7",
+                        "material": "20"
+                    },
+                    "active": true
+                },
+                {
+                    "type": "collision",
+                    "collision": {
+                        "collider": "aabb",
+                        "aabb": {
+                            "extents": [
+                                4.0,
+                                0.05,
+                                4.0
+                            ]
+                        },
+                        "groups": 4
+                    }
+                }
+            ],
+            "translation": [
+                0.0,
+                0.0,
+                1.1920928955078125e-7
+            ],
+            "rotation": [
+                -0.7072496,
+                0.0,
+                0.0,
+                0.7069638
+            ],
+            "scale": [
+                4.0,
+                4.0,
+                4.0
+            ]
+        },
+        "16": {
+            "name": "Cube",
+            "components": [
+                {
+                    "type": "mesh",
+                    "mesh": {
+                        "mesh": "8",
+                        "material": "22"
+                    }
+                }
+            ],
+            "translation": [
+                2.9802322387695313e-8,
+                0.4999999,
+                5.960464477539064e-8
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                0.5,
+                0.5,
+                0.5
+            ]
+        },
+        "17": {
+            "name": "NonVrCamera",
+            "parent": "205",
+            "components": [
+                {
+                    "type": "view"
+                },
+                {
+                    "type": "mouse-look"
+                },
+                {
+                    "type": "cursor",
+                    "cursor": {
+                        "collisionGroup": 0,
+                        "handedness": "none"
+                    }
+                }
+            ],
+            "translation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        "18": {
+            "name": "EyeLeft",
+            "parent": "205",
+            "components": [
+                {
+                    "type": "view"
+                },
+                {
+                    "type": "input",
+                    "input": {
+                        "type": "eye left"
+                    }
+                },
+                {
+                    "type": "howler-audio-listener"
+                }
+            ],
+            "translation": [
+                0.0,
+                0.0,
+                -2.384185791015625e-7
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        "19": {
+            "name": "EyeRight",
+            "parent": "205",
+            "components": [
+                {
+                    "type": "view"
+                },
+                {
+                    "type": "input",
+                    "input": {
+                        "type": "eye right"
+                    }
+                }
+            ],
+            "translation": [
+                0.0,
+                0.0,
+                -2.384185791015625e-7
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        "21": {
+            "name": "Light",
+            "components": [
+                {
+                    "type": "light",
+                    "light": {
+                        "attenuation": 0.1
+                    }
+                }
+            ],
+            "translation": [
+                0.0,
+                3.0,
+                2.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        "23": {
+            "name": "Light.000",
+            "components": [
+                {
+                    "type": "light",
+                    "light": {
+                        "attenuation": 0.1
+                    }
+                }
+            ],
+            "translation": [
+                -1.0,
+                3.0,
+                -1.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        "24": {
+            "name": "Cone",
+            "components": [
+                {
+                    "type": "mesh",
+                    "mesh": {
+                        "mesh": "10",
+                        "material": "25"
+                    }
+                }
+            ],
+            "translation": [
+                1.5,
+                1.0,
+                -1.4901161193847656e-8
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        "27": {
+            "name": "Sphere",
+            "components": [
+                {
+                    "type": "mesh",
+                    "mesh": {
+                        "mesh": "9",
+                        "material": "26"
+                    }
+                }
+            ],
+            "translation": [
+                0.4999999,
+                0.75,
+                -1.25
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                0.75,
+                0.75,
+                0.75
+            ]
+        },
+        "53": {
+            "link": {
+                "name": "root",
+                "file": "models\\oculus-touch-v2-left.glb"
+            },
+            "parent": "130",
+            "name": "ControllerModelLeft",
+            "translation": [
+                -0.0117514,
+                0.0008869,
+                0.0161192
+            ],
+            "rotation": [
+                -0.0,
+                0.7316615,
+                0.6816681,
+                3.196286257889369e-8
+            ],
+            "scale": [
+                0.9999998,
+                0.9999999,
+                0.9999997
+            ]
+        },
+        "54": {
+            "link": {
+                "name": "controller<root",
+                "file": "models\\oculus-touch-v2-left.glb"
+            },
+            "parent": "53",
+            "components": [
+                {
+                    "active": false
+                }
+            ]
+        },
+        "55": {
+            "link": {
+                "name": "thumbrest_pressed_max<root",
+                "file": "models\\oculus-touch-v2-left.glb"
+            },
+            "parent": "53"
+        },
+        "56": {
+            "link": {
+                "name": "thumbrest_pressed_min<root",
+                "file": "models\\oculus-touch-v2-left.glb"
+            },
+            "parent": "53"
+        },
+        "57": {
+            "link": {
+                "name": "thumbrest_pressed_value<root",
+                "file": "models\\oculus-touch-v2-left.glb"
+            },
+            "parent": "53"
+        },
+        "58": {
+            "link": {
+                "name": "x_button_pressed_max<root",
+                "file": "models\\oculus-touch-v2-left.glb"
+            },
+            "parent": "53"
+        },
+        "59": {
+            "link": {
+                "name": "x_button_pressed_min<root",
+                "file": "models\\oculus-touch-v2-left.glb"
+            },
+            "parent": "53"
+        },
+        "60": {
+            "link": {
+                "name": "x_button_pressed_value<root",
+                "file": "models\\oculus-touch-v2-left.glb"
+            },
+            "parent": "53"
+        },
+        "61": {
+            "link": {
+                "name": "x_button<x_button_pressed_value<root",
+                "file": "models\\oculus-touch-v2-left.glb"
+            },
+            "parent": "60"
+        },
+        "62": {
+            "link": {
+                "name": "xr_standard_squeeze_pressed_max<root",
+                "file": "models\\oculus-touch-v2-left.glb"
+            },
+            "parent": "53"
+        },
+        "63": {
+            "link": {
+                "name": "xr_standard_squeeze_pressed_min<root",
+                "file": "models\\oculus-touch-v2-left.glb"
+            },
+            "parent": "53"
+        },
+        "64": {
+            "link": {
+                "name": "xr_standard_squeeze_pressed_value<root",
+                "file": "models\\oculus-touch-v2-left.glb"
+            },
+            "parent": "53"
+        },
+        "65": {
+            "link": {
+                "name": "squeeze<xr_standard_squeeze_pressed_value<root",
+                "file": "models\\oculus-touch-v2-left.glb"
+            },
+            "parent": "64"
+        },
+        "66": {
+            "link": {
+                "name": "xr_standard_thumbstick_pressed_max<root",
+                "file": "models\\oculus-touch-v2-left.glb"
+            },
+            "parent": "53"
+        },
+        "67": {
+            "link": {
+                "name": "xr_standard_thumbstick_pressed_min<root",
+                "file": "models\\oculus-touch-v2-left.glb"
+            },
+            "parent": "53"
+        },
+        "68": {
+            "link": {
+                "name": "xr_standard_thumbstick_pressed_value<root",
+                "file": "models\\oculus-touch-v2-left.glb"
+            },
+            "parent": "53"
+        },
+        "69": {
+            "link": {
+                "name": "xr_standard_thumbstick_xaxis_pressed_max<xr_standard_thumbstick_pressed_value<root",
+                "file": "models\\oculus-touch-v2-left.glb"
+            },
+            "parent": "68"
+        },
+        "70": {
+            "link": {
+                "name": "xr_standard_thumbstick_xaxis_pressed_min<xr_standard_thumbstick_pressed_value<root",
+                "file": "models\\oculus-touch-v2-left.glb"
+            },
+            "parent": "68"
+        },
+        "71": {
+            "link": {
+                "name": "xr_standard_thumbstick_xaxis_pressed_value<xr_standard_thumbstick_pressed_value<root",
+                "file": "models\\oculus-touch-v2-left.glb"
+            },
+            "parent": "68"
+        },
+        "72": {
+            "link": {
+                "name": "xr_standard_thumbstick_yaxis_pressed_max<xr_standard_thumbstick_xaxis_pressed_value<xr_standard_thumbstick_pressed_value<root",
+                "file": "models\\oculus-touch-v2-left.glb"
+            },
+            "parent": "71"
+        },
+        "73": {
+            "link": {
+                "name": "xr_standard_thumbstick_yaxis_pressed_min<xr_standard_thumbstick_xaxis_pressed_value<xr_standard_thumbstick_pressed_value<root",
+                "file": "models\\oculus-touch-v2-left.glb"
+            },
+            "parent": "71"
+        },
+        "74": {
+            "link": {
+                "name": "xr_standard_thumbstick_yaxis_pressed_value<xr_standard_thumbstick_xaxis_pressed_value<xr_standard_thumbstick_pressed_value<root",
+                "file": "models\\oculus-touch-v2-left.glb"
+            },
+            "parent": "71"
+        },
+        "75": {
+            "link": {
+                "name": "thumbstick<xr_standard_thumbstick_yaxis_pressed_value<xr_standard_thumbstick_xaxis_pressed_value<xr_standard_thumbstick_pressed_value<root",
+                "file": "models\\oculus-touch-v2-left.glb"
+            },
+            "parent": "74"
+        },
+        "76": {
+            "link": {
+                "name": "xr_standard_trigger_pressed_max<root",
+                "file": "models\\oculus-touch-v2-left.glb"
+            },
+            "parent": "53"
+        },
+        "77": {
+            "link": {
+                "name": "xr_standard_trigger_pressed_min<root",
+                "file": "models\\oculus-touch-v2-left.glb"
+            },
+            "parent": "53"
+        },
+        "78": {
+            "link": {
+                "name": "xr_standard_trigger_pressed_value<root",
+                "file": "models\\oculus-touch-v2-left.glb"
+            },
+            "parent": "53"
+        },
+        "79": {
+            "link": {
+                "name": "trigger<xr_standard_trigger_pressed_value<root",
+                "file": "models\\oculus-touch-v2-left.glb"
+            },
+            "parent": "78"
+        },
+        "80": {
+            "link": {
+                "name": "y_button_pressed_max<root",
+                "file": "models\\oculus-touch-v2-left.glb"
+            },
+            "parent": "53"
+        },
+        "81": {
+            "link": {
+                "name": "y_button_pressed_min<root",
+                "file": "models\\oculus-touch-v2-left.glb"
+            },
+            "parent": "53"
+        },
+        "82": {
+            "link": {
+                "name": "y_button_pressed_value<root",
+                "file": "models\\oculus-touch-v2-left.glb"
+            },
+            "parent": "53"
+        },
+        "83": {
+            "link": {
+                "name": "y_button<y_button_pressed_value<root",
+                "file": "models\\oculus-touch-v2-left.glb"
+            },
+            "parent": "82"
+        },
+        "95": {
+            "link": {
+                "name": "root",
+                "file": "models\\oculus-touch-v2-right.glb"
+            },
+            "parent": "129",
+            "name": "ControllerModelRight",
+            "translation": [
+                0.0097994,
+                -0.0006203,
+                0.0177838
+            ],
+            "rotation": [
+                -0.0,
+                0.999921,
+                -0.0125658,
+                -4.174509058429976e-7
+            ],
+            "scale": [
+                0.9993978,
+                0.9993963,
+                1.0000015
+            ]
+        },
+        "96": {
+            "link": {
+                "name": "a_button_pressed_max<root",
+                "file": "models\\oculus-touch-v2-right.glb"
+            },
+            "parent": "95"
+        },
+        "97": {
+            "link": {
+                "name": "a_button_pressed_min<root",
+                "file": "models\\oculus-touch-v2-right.glb"
+            },
+            "parent": "95"
+        },
+        "98": {
+            "link": {
+                "name": "a_button_pressed_value<root",
+                "file": "models\\oculus-touch-v2-right.glb"
+            },
+            "parent": "95"
+        },
+        "99": {
+            "link": {
+                "name": "a_button<a_button_pressed_value<root",
+                "file": "models\\oculus-touch-v2-right.glb"
+            },
+            "parent": "98"
+        },
+        "100": {
+            "link": {
+                "name": "b_button_pressed_max<root",
+                "file": "models\\oculus-touch-v2-right.glb"
+            },
+            "parent": "95"
+        },
+        "101": {
+            "link": {
+                "name": "b_button_pressed_min<root",
+                "file": "models\\oculus-touch-v2-right.glb"
+            },
+            "parent": "95"
+        },
+        "102": {
+            "link": {
+                "name": "b_button_pressed_value<root",
+                "file": "models\\oculus-touch-v2-right.glb"
+            },
+            "parent": "95"
+        },
+        "103": {
+            "link": {
+                "name": "b_button<b_button_pressed_value<root",
+                "file": "models\\oculus-touch-v2-right.glb"
+            },
+            "parent": "102"
+        },
+        "104": {
+            "link": {
+                "name": "controller<root",
+                "file": "models\\oculus-touch-v2-right.glb"
+            },
+            "parent": "95",
+            "components": [
+                {
+                    "active": false
+                }
+            ]
+        },
+        "105": {
+            "link": {
+                "name": "thumbrest_pressed_max<root",
+                "file": "models\\oculus-touch-v2-right.glb"
+            },
+            "parent": "95"
+        },
+        "106": {
+            "link": {
+                "name": "thumbrest_pressed_min<root",
+                "file": "models\\oculus-touch-v2-right.glb"
+            },
+            "parent": "95"
+        },
+        "107": {
+            "link": {
+                "name": "thumbrest_pressed_value<root",
+                "file": "models\\oculus-touch-v2-right.glb"
+            },
+            "parent": "95"
+        },
+        "108": {
+            "link": {
+                "name": "xr_standard_squeeze_pressed_max<root",
+                "file": "models\\oculus-touch-v2-right.glb"
+            },
+            "parent": "95"
+        },
+        "109": {
+            "link": {
+                "name": "xr_standard_squeeze_pressed_min<root",
+                "file": "models\\oculus-touch-v2-right.glb"
+            },
+            "parent": "95"
+        },
+        "110": {
+            "link": {
+                "name": "xr_standard_squeeze_pressed_value<root",
+                "file": "models\\oculus-touch-v2-right.glb"
+            },
+            "parent": "95"
+        },
+        "111": {
+            "link": {
+                "name": "squeeze<xr_standard_squeeze_pressed_value<root",
+                "file": "models\\oculus-touch-v2-right.glb"
+            },
+            "parent": "110"
+        },
+        "112": {
+            "link": {
+                "name": "xr_standard_thumbstick_pressed_max<root",
+                "file": "models\\oculus-touch-v2-right.glb"
+            },
+            "parent": "95"
+        },
+        "113": {
+            "link": {
+                "name": "xr_standard_thumbstick_pressed_min<root",
+                "file": "models\\oculus-touch-v2-right.glb"
+            },
+            "parent": "95"
+        },
+        "114": {
+            "link": {
+                "name": "xr_standard_thumbstick_pressed_value<root",
+                "file": "models\\oculus-touch-v2-right.glb"
+            },
+            "parent": "95"
+        },
+        "115": {
+            "link": {
+                "name": "xr_standard_thumbstick_xaxis_pressed_max<xr_standard_thumbstick_pressed_value<root",
+                "file": "models\\oculus-touch-v2-right.glb"
+            },
+            "parent": "114"
+        },
+        "116": {
+            "link": {
+                "name": "xr_standard_thumbstick_xaxis_pressed_min<xr_standard_thumbstick_pressed_value<root",
+                "file": "models\\oculus-touch-v2-right.glb"
+            },
+            "parent": "114"
+        },
+        "117": {
+            "link": {
+                "name": "xr_standard_thumbstick_xaxis_pressed_value<xr_standard_thumbstick_pressed_value<root",
+                "file": "models\\oculus-touch-v2-right.glb"
+            },
+            "parent": "114"
+        },
+        "118": {
+            "link": {
+                "name": "xr_standard_thumbstick_yaxis_pressed_max<xr_standard_thumbstick_xaxis_pressed_value<xr_standard_thumbstick_pressed_value<root",
+                "file": "models\\oculus-touch-v2-right.glb"
+            },
+            "parent": "117"
+        },
+        "119": {
+            "link": {
+                "name": "xr_standard_thumbstick_yaxis_pressed_min<xr_standard_thumbstick_xaxis_pressed_value<xr_standard_thumbstick_pressed_value<root",
+                "file": "models\\oculus-touch-v2-right.glb"
+            },
+            "parent": "117"
+        },
+        "120": {
+            "link": {
+                "name": "xr_standard_thumbstick_yaxis_pressed_value<xr_standard_thumbstick_xaxis_pressed_value<xr_standard_thumbstick_pressed_value<root",
+                "file": "models\\oculus-touch-v2-right.glb"
+            },
+            "parent": "117"
+        },
+        "121": {
+            "link": {
+                "name": "thumbstick<xr_standard_thumbstick_yaxis_pressed_value<xr_standard_thumbstick_xaxis_pressed_value<xr_standard_thumbstick_pressed_value<root",
+                "file": "models\\oculus-touch-v2-right.glb"
+            },
+            "parent": "120"
+        },
+        "122": {
+            "link": {
+                "name": "xr_standard_trigger_pressed_max<root",
+                "file": "models\\oculus-touch-v2-right.glb"
+            },
+            "parent": "95"
+        },
+        "123": {
+            "link": {
+                "name": "xr_standard_trigger_pressed_min<root",
+                "file": "models\\oculus-touch-v2-right.glb"
+            },
+            "parent": "95"
+        },
+        "124": {
+            "link": {
+                "name": "xr_standard_trigger_pressed_value<root",
+                "file": "models\\oculus-touch-v2-right.glb"
+            },
+            "parent": "95"
+        },
+        "125": {
+            "link": {
+                "name": "trigger<xr_standard_trigger_pressed_value<root",
+                "file": "models\\oculus-touch-v2-right.glb"
+            },
+            "parent": "124"
+        },
+        "126": {
+            "name": "CursorLeft",
+            "parent": "205",
+            "components": [
+                {
+                    "type": "cursor",
+                    "cursor": {
+                        "cursorObject": "127",
+                        "collisionGroup": 0,
+                        "cursorRayObject": "209",
+                        "cursorRayScalingAxis": "y"
+                    }
+                },
+                {
+                    "type": "input",
+                    "input": {
+                        "type": "ray left"
+                    }
+                },
+                {
+                    "type": "teleport",
+                    "teleport": {
+                        "floorGroup": 2,
+                        "camRoot": "14",
+                        "cam": "17",
+                        "teleportIndicatorMeshObject": "208",
+                        "indicatorYOffset": 0.0099999,
+                        "eyeLeft": "18",
+                        "eyeRight": "19"
+                    }
+                }
+            ],
+            "translation": [
+                2.384185791015625e-7,
+                1.1920928955078125e-7,
+                -2.384185791015625e-7
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        "127": {
+            "name": "3DCursorHitLeft",
+            "components": [
+                {
+                    "type": "mesh",
+                    "mesh": {
+                        "mesh": "9",
+                        "material": "128"
+                    }
+                }
+            ],
+            "parent": null,
+            "translation": [
+                0.0,
+                0.0388117,
+                1.5585094
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                0.0099999,
+                0.0099999,
+                0.0099999
+            ]
+        },
+        "129": {
+            "name": "ControllerRight",
+            "parent": "205",
+            "components": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "type": "input",
+                    "input": {
+                        "type": "hand right"
+                    }
+                },
+                {
+                    "type": "vr-mode-active-switch",
+                    "active": true
+                }
+            ],
+            "translation": [
+                0.0,
+                0.0,
+                -2.384185791015625e-7
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        "130": {
+            "name": "ControllerLeft",
+            "parent": "205",
+            "components": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "type": "input",
+                    "input": {
+                        "type": "hand left"
+                    }
+                },
+                {
+                    "type": "vr-mode-active-switch",
+                    "active": true
+                }
+            ],
+            "translation": [
+                0.0,
+                0.0,
+                -2.384185791015625e-7
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        "134": {
+            "link": {
+                "name": "Armature",
+                "file": "models\\hand-left.glb"
+            },
+            "parent": "205",
+            "name": "HandLeft",
+            "components": [
+                {
+                    "type": "hand-tracking",
+                    "hand-tracking": {
+                        "handedness": "left",
+                        "handSkin": "133",
+                        "controllerToDeactivate": "130",
+                        "deactivateChildrenWithoutPose": true
+                    }
+                },
+                {
+                    "type": "vr-mode-active-switch",
+                    "active": true
+                }
+            ],
+            "translation": [
+                0.0,
+                0.0,
+                -2.384185791015625e-7
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        "135": {
+            "link": {
+                "name": "l_handMeshNode<Armature",
+                "file": "models\\hand-left.glb"
+            },
+            "parent": "134",
+            "components": [
+                {
+                    "active": true,
+                    "mesh": {
+                        "skin": "133"
+                    }
+                }
+            ]
+        },
+        "136": {
+            "link": {
+                "name": "xr_standard_trigger_pressed_max<Armature",
+                "file": "models\\hand-left.glb"
+            },
+            "parent": "134"
+        },
+        "137": {
+            "link": {
+                "name": "xr_standard_trigger_pressed_min<Armature",
+                "file": "models\\hand-left.glb"
+            },
+            "parent": "134"
+        },
+        "138": {
+            "link": {
+                "name": "xr_standard_trigger_pressed_value<Armature",
+                "file": "models\\hand-left.glb"
+            },
+            "parent": "134"
+        },
+        "139": {
+            "link": {
+                "name": "pinky-finger-tip<Armature",
+                "file": "models\\hand-left.glb"
+            },
+            "parent": "134",
+            "skin": "133"
+        },
+        "140": {
+            "link": {
+                "name": "pinky-finger-phalanx-distal<Armature",
+                "file": "models\\hand-left.glb"
+            },
+            "parent": "134",
+            "skin": "133"
+        },
+        "141": {
+            "link": {
+                "name": "pinky-finger-phalanx-intermediate<Armature",
+                "file": "models\\hand-left.glb"
+            },
+            "parent": "134",
+            "skin": "133"
+        },
+        "142": {
+            "link": {
+                "name": "pinky-finger-phalanx-proximal<Armature",
+                "file": "models\\hand-left.glb"
+            },
+            "parent": "134",
+            "skin": "133"
+        },
+        "143": {
+            "link": {
+                "name": "pinky-finger-metacarpal<Armature",
+                "file": "models\\hand-left.glb"
+            },
+            "parent": "134",
+            "skin": "133"
+        },
+        "144": {
+            "link": {
+                "name": "ring-finger-tip<Armature",
+                "file": "models\\hand-left.glb"
+            },
+            "parent": "134",
+            "skin": "133"
+        },
+        "145": {
+            "link": {
+                "name": "ring-finger-phalanx-distal<Armature",
+                "file": "models\\hand-left.glb"
+            },
+            "parent": "134",
+            "skin": "133"
+        },
+        "146": {
+            "link": {
+                "name": "ring-finger-phalanx-intermediate<Armature",
+                "file": "models\\hand-left.glb"
+            },
+            "parent": "134",
+            "skin": "133"
+        },
+        "147": {
+            "link": {
+                "name": "ring-finger-phalanx-proximal<Armature",
+                "file": "models\\hand-left.glb"
+            },
+            "parent": "134",
+            "skin": "133"
+        },
+        "148": {
+            "link": {
+                "name": "ring-finger-metacarpal<Armature",
+                "file": "models\\hand-left.glb"
+            },
+            "parent": "134",
+            "skin": "133"
+        },
+        "149": {
+            "link": {
+                "name": "middle-finger-tip<Armature",
+                "file": "models\\hand-left.glb"
+            },
+            "parent": "134",
+            "skin": "133"
+        },
+        "150": {
+            "link": {
+                "name": "middle-finger-phalanx-distal<Armature",
+                "file": "models\\hand-left.glb"
+            },
+            "parent": "134",
+            "skin": "133"
+        },
+        "151": {
+            "link": {
+                "name": "middle-finger-phalanx-intermediate<Armature",
+                "file": "models\\hand-left.glb"
+            },
+            "parent": "134",
+            "skin": "133"
+        },
+        "152": {
+            "link": {
+                "name": "middle-finger-phalanx-proximal<Armature",
+                "file": "models\\hand-left.glb"
+            },
+            "parent": "134",
+            "skin": "133"
+        },
+        "153": {
+            "link": {
+                "name": "middle-finger-metacarpal<Armature",
+                "file": "models\\hand-left.glb"
+            },
+            "parent": "134",
+            "skin": "133"
+        },
+        "154": {
+            "link": {
+                "name": "index-finger-tip<Armature",
+                "file": "models\\hand-left.glb"
+            },
+            "parent": "134",
+            "components": [
+                {
+                    "type": "finger-cursor"
+                },
+                {
+                    "type": "collision",
+                    "collision": {
+                        "sphere": {
+                            "radius": 0.0099999
+                        },
+                        "groups": 2
+                    }
+                }
+            ],
+            "skin": "133"
+        },
+        "155": {
+            "link": {
+                "name": "index-finger-phalanx-distal<Armature",
+                "file": "models\\hand-left.glb"
+            },
+            "parent": "134",
+            "skin": "133"
+        },
+        "156": {
+            "link": {
+                "name": "index-finger-phalanx-intermediate<Armature",
+                "file": "models\\hand-left.glb"
+            },
+            "parent": "134",
+            "skin": "133"
+        },
+        "157": {
+            "link": {
+                "name": "index-finger-phalanx-proximal<Armature",
+                "file": "models\\hand-left.glb"
+            },
+            "parent": "134",
+            "skin": "133"
+        },
+        "158": {
+            "link": {
+                "name": "index-finger-metacarpal<Armature",
+                "file": "models\\hand-left.glb"
+            },
+            "parent": "134",
+            "skin": "133"
+        },
+        "159": {
+            "link": {
+                "name": "thumb-tip<Armature",
+                "file": "models\\hand-left.glb"
+            },
+            "parent": "134",
+            "skin": "133"
+        },
+        "160": {
+            "link": {
+                "name": "thumb-phalanx-distal<Armature",
+                "file": "models\\hand-left.glb"
+            },
+            "parent": "134",
+            "skin": "133"
+        },
+        "161": {
+            "link": {
+                "name": "thumb-phalanx-proximal<Armature",
+                "file": "models\\hand-left.glb"
+            },
+            "parent": "134",
+            "skin": "133"
+        },
+        "162": {
+            "link": {
+                "name": "thumb-metacarpal<Armature",
+                "file": "models\\hand-left.glb"
+            },
+            "parent": "134",
+            "skin": "133"
+        },
+        "163": {
+            "link": {
+                "name": "wrist<Armature",
+                "file": "models\\hand-left.glb"
+            },
+            "parent": "134",
+            "skin": "133"
+        },
+        "167": {
+            "link": {
+                "name": "Armature",
+                "file": "models\\hand-right.glb"
+            },
+            "parent": "205",
+            "name": "HandRight",
+            "components": [
+                {
+                    "type": "hand-tracking",
+                    "hand-tracking": {
+                        "handedness": "right",
+                        "handSkin": "166",
+                        "controllerToDeactivate": "129"
+                    },
+                    "active": true
+                },
+                {
+                    "type": "vr-mode-active-switch",
+                    "active": true
+                }
+            ],
+            "translation": [
+                0.0,
+                0.0,
+                -2.384185791015625e-7
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        "168": {
+            "link": {
+                "name": "r_handMeshNode<Armature",
+                "file": "models\\hand-right.glb"
+            },
+            "parent": "167",
+            "components": [
+                {
+                    "mesh": {
+                        "skin": "166"
+                    }
+                }
+            ]
+        },
+        "169": {
+            "link": {
+                "name": "wrist<Armature",
+                "file": "models\\hand-right.glb"
+            },
+            "parent": "167",
+            "skin": "166"
+        },
+        "170": {
+            "link": {
+                "name": "thumb-metacarpal<Armature",
+                "file": "models\\hand-right.glb"
+            },
+            "parent": "167",
+            "skin": "166"
+        },
+        "171": {
+            "link": {
+                "name": "thumb-phalanx-proximal<Armature",
+                "file": "models\\hand-right.glb"
+            },
+            "parent": "167",
+            "skin": "166"
+        },
+        "172": {
+            "link": {
+                "name": "thumb-phalanx-distal<Armature",
+                "file": "models\\hand-right.glb"
+            },
+            "parent": "167",
+            "skin": "166"
+        },
+        "173": {
+            "link": {
+                "name": "thumb-tip<Armature",
+                "file": "models\\hand-right.glb"
+            },
+            "parent": "167",
+            "skin": "166"
+        },
+        "174": {
+            "link": {
+                "name": "index-finger-metacarpal<Armature",
+                "file": "models\\hand-right.glb"
+            },
+            "parent": "167",
+            "skin": "166"
+        },
+        "175": {
+            "link": {
+                "name": "index-finger-phalanx-proximal<Armature",
+                "file": "models\\hand-right.glb"
+            },
+            "parent": "167",
+            "skin": "166"
+        },
+        "176": {
+            "link": {
+                "name": "index-finger-phalanx-intermediate<Armature",
+                "file": "models\\hand-right.glb"
+            },
+            "parent": "167",
+            "skin": "166"
+        },
+        "177": {
+            "link": {
+                "name": "index-finger-phalanx-distal<Armature",
+                "file": "models\\hand-right.glb"
+            },
+            "parent": "167",
+            "skin": "166"
+        },
+        "178": {
+            "link": {
+                "name": "index-finger-tip<Armature",
+                "file": "models\\hand-right.glb"
+            },
+            "parent": "167",
+            "components": [
+                {
+                    "type": "collision",
+                    "collision": {
+                        "sphere": {
+                            "radius": 0.0099999
+                        },
+                        "groups": 2
+                    }
+                },
+                {
+                    "type": "finger-cursor"
+                }
+            ],
+            "skin": "166"
+        },
+        "179": {
+            "link": {
+                "name": "middle-finger-metacarpal<Armature",
+                "file": "models\\hand-right.glb"
+            },
+            "parent": "167",
+            "skin": "166"
+        },
+        "180": {
+            "link": {
+                "name": "middle-finger-phalanx-proximal<Armature",
+                "file": "models\\hand-right.glb"
+            },
+            "parent": "167",
+            "skin": "166"
+        },
+        "181": {
+            "link": {
+                "name": "middle-finger-phalanx-intermediate<Armature",
+                "file": "models\\hand-right.glb"
+            },
+            "parent": "167",
+            "skin": "166"
+        },
+        "182": {
+            "link": {
+                "name": "middle-finger-phalanx-distal<Armature",
+                "file": "models\\hand-right.glb"
+            },
+            "parent": "167",
+            "skin": "166"
+        },
+        "183": {
+            "link": {
+                "name": "middle-finger-tip<Armature",
+                "file": "models\\hand-right.glb"
+            },
+            "parent": "167",
+            "skin": "166"
+        },
+        "184": {
+            "link": {
+                "name": "ring-finger-metacarpal<Armature",
+                "file": "models\\hand-right.glb"
+            },
+            "parent": "167",
+            "skin": "166"
+        },
+        "185": {
+            "link": {
+                "name": "ring-finger-phalanx-proximal<Armature",
+                "file": "models\\hand-right.glb"
+            },
+            "parent": "167",
+            "skin": "166"
+        },
+        "186": {
+            "link": {
+                "name": "ring-finger-phalanx-intermediate<Armature",
+                "file": "models\\hand-right.glb"
+            },
+            "parent": "167",
+            "skin": "166"
+        },
+        "187": {
+            "link": {
+                "name": "ring-finger-phalanx-distal<Armature",
+                "file": "models\\hand-right.glb"
+            },
+            "parent": "167",
+            "skin": "166"
+        },
+        "188": {
+            "link": {
+                "name": "ring-finger-tip<Armature",
+                "file": "models\\hand-right.glb"
+            },
+            "parent": "167",
+            "skin": "166"
+        },
+        "189": {
+            "link": {
+                "name": "pinky-finger-metacarpal<Armature",
+                "file": "models\\hand-right.glb"
+            },
+            "parent": "167",
+            "skin": "166"
+        },
+        "190": {
+            "link": {
+                "name": "pinky-finger-phalanx-proximal<Armature",
+                "file": "models\\hand-right.glb"
+            },
+            "parent": "167",
+            "skin": "166"
+        },
+        "191": {
+            "link": {
+                "name": "pinky-finger-phalanx-intermediate<Armature",
+                "file": "models\\hand-right.glb"
+            },
+            "parent": "167",
+            "skin": "166"
+        },
+        "192": {
+            "link": {
+                "name": "pinky-finger-phalanx-distal<Armature",
+                "file": "models\\hand-right.glb"
+            },
+            "parent": "167",
+            "skin": "166"
+        },
+        "193": {
+            "link": {
+                "name": "pinky-finger-tip<Armature",
+                "file": "models\\hand-right.glb"
+            },
+            "parent": "167",
+            "skin": "166"
+        },
+        "194": {
+            "name": "Panel",
+            "components": [
+                {
+                    "type": "mesh",
+                    "mesh": {
+                        "mesh": "195",
+                        "material": "202"
+                    }
+                }
+            ],
+            "translation": [
+                -2.5,
+                1.2,
+                0.0
+            ],
+            "rotation": [
+                0.5002117,
+                0.0,
+                0.0,
+                0.8659031
+            ],
+            "scale": [
+                0.25,
+                0.1249998,
+                0.2499998
+            ]
+        },
+        "196": {
+            "link": {
+                "name": "Cube",
+                "file": "models\\button.glb"
+            },
+            "parent": "197",
+            "components": [
+                {
+                    "mesh": {
+                        "material": "26"
+                    }
+                }
+            ],
+            "name": "ButtonMesh",
+            "translation": [
+                -0.0000094,
+                0.3244419,
+                -0.0000676
+            ],
+            "rotation": [
+                6.000006465001206e-7,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                0.9999989,
+                0.9999989
+            ]
+        },
+        "197": {
+            "name": "Button",
+            "parent": "194",
+            "components": [
+                {
+                    "type": "collision",
+                    "collision": {
+                        "collider": "box",
+                        "box": {
+                            "extents": [
+                                0.0974999,
+                                0.025,
+                                0.045
+                            ]
+                        },
+                        "groups": 251
+                    }
+                },
+                {
+                    "type": "cursor-target"
+                },
+                {
+                    "type": "button",
+                    "button": {
+                        "buttonMeshObject": "196",
+                        "hoverMaterial": "203"
+                    }
+                }
+            ],
+            "translation": [
+                0.0,
+                0.057682,
+                0.175434
+            ],
+            "rotation": [
+                -0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                0.4,
+                0.4999999,
+                0.3
+            ]
+        },
+        "198": {
+            "name": "ButtonLabel",
+            "parent": "196",
+            "components": [
+                {
+                    "type": "text",
+                    "text": {
+                        "text": "Thanks!"
+                    }
+                }
+            ],
+            "translation": [
+                -0.0001563,
+                0.1084579,
+                0.0000046
+            ],
+            "rotation": [
+                -0.7068095,
+                0.0,
+                0.0,
+                0.7074038
+            ],
+            "scale": [
+                2.5,
+                3.7999999,
+                4.8000063
+            ]
+        },
+        "200": {
+            "name": "Title",
+            "parent": "194",
+            "components": [
+                {
+                    "type": "text",
+                    "text": {
+                        "text": "Welcome to\nWonderland",
+                        "material": "201"
+                    }
+                }
+            ],
+            "translation": [
+                -0.0000023,
+                0.1554993,
+                -0.303415
+            ],
+            "rotation": [
+                -0.7068591,
+                0.0,
+                0.0,
+                0.7073543
+            ],
+            "scale": [
+                1.5,
+                3.0000002,
+                1.5000001
+            ]
+        },
+        "205": {
+            "name": "TrackedSpace",
+            "parent": "14",
+            "components": [
+                {
+                    "type": "player-height"
+                }
+            ],
+            "translation": [
+                0.0,
+                1.75,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        "208": {
+            "link": {
+                "name": "TeleportIndicator",
+                "file": "models\\teleport-indicator.glb"
+            },
+            "translation": [
+                0.0,
+                0.0099999,
+                1.3311299
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        "209": {
+            "name": "CursorRayLeft",
+            "parent": "126",
+            "translation": [
+                0.0,
+                0.0,
+                2.384185791015625e-7
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        "210": {
+            "name": "CuresorRayMeshLeft",
+            "parent": "209",
+            "components": [
+                {
+                    "type": "mesh",
+                    "mesh": {
+                        "mesh": "10",
+                        "material": "128"
+                    }
+                }
+            ],
+            "translation": [
+                2.3841928964429826e-7,
+                0.0002447,
+                0.0
+            ],
+            "rotation": [
+                0.707,
+                0.0,
+                0.0,
+                0.7072135
+            ],
+            "scale": [
+                0.0049998,
+                0.3500002,
+                0.0049999
+            ]
+        },
+        "212": {
+            "name": "CursorRight",
+            "parent": "205",
+            "components": [
+                {
+                    "type": "cursor",
+                    "cursor": {
+                        "cursorObject": "215",
+                        "collisionGroup": 0,
+                        "cursorRayObject": "213",
+                        "cursorRayScalingAxis": "y"
+                    }
+                },
+                {
+                    "type": "input",
+                    "input": {
+                        "type": "ray right"
+                    }
+                },
+                {
+                    "type": "teleport",
+                    "teleport": {
+                        "floorGroup": 2,
+                        "camRoot": "14",
+                        "cam": "17",
+                        "teleportIndicatorMeshObject": "208",
+                        "indicatorYOffset": 0.0099999,
+                        "eyeLeft": "18",
+                        "eyeRight": "19"
+                    }
+                }
+            ],
+            "translation": [
+                0.0,
+                0.0,
+                -2.384185791015625e-7
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        "213": {
+            "name": "CursorRayRight",
+            "parent": "212",
+            "translation": [
+                0.0,
+                0.0,
+                2.384185791015625e-7
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        "214": {
+            "name": "CuresorRayMeshRight",
+            "parent": "213",
+            "components": [
+                {
+                    "type": "mesh",
+                    "mesh": {
+                        "mesh": "10",
+                        "material": "128"
+                    }
+                }
+            ],
+            "translation": [
+                2.384185791015625e-7,
+                0.0002447,
+                0.0
+            ],
+            "rotation": [
+                0.7072796,
+                0.0,
+                0.0,
+                0.7069339
+            ],
+            "scale": [
+                0.0049998,
+                0.3499999,
+                0.0049999
+            ]
+        },
+        "215": {
+            "name": "3DCursorHitRight",
+            "components": [
+                {
+                    "type": "mesh",
+                    "mesh": {
+                        "mesh": "9",
+                        "material": "128"
+                    }
+                }
+            ],
+            "parent": null,
+            "translation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                0.0099999,
+                0.0099999,
+                0.0099999
+            ]
+        },
+        "1642": {
+            "name": "gltf",
+            "components": [
+                {
+                    "type": "gltf loading"
+                }
+            ]
+        }
+    },
+    "meshes": {
+        "7": {
+            "link": {
+                "name": "PrimitivePlane",
+                "file": "default"
+            }
+        },
+        "8": {
+            "link": {
+                "name": "PrimitiveCube",
+                "file": "default"
+            }
+        },
+        "9": {
+            "link": {
+                "name": "PrimitiveSphere",
+                "file": "default"
+            }
+        },
+        "10": {
+            "link": {
+                "name": "PrimitiveCone",
+                "file": "default"
+            }
+        },
+        "11": {
+            "link": {
+                "name": "PrimitiveCylinder",
+                "file": "default"
+            }
+        },
+        "12": {
+            "link": {
+                "name": "PrimitiveCircle",
+                "file": "default"
+            }
+        },
+        "47": {
+            "link": {
+                "name": "controller_plyShape",
+                "file": "models\\oculus-touch-v2-left.glb"
+            }
+        },
+        "48": {
+            "link": {
+                "name": "controller_plyShape.003",
+                "file": "models\\oculus-touch-v2-left.glb"
+            }
+        },
+        "49": {
+            "link": {
+                "name": "controller_plyShape.005",
+                "file": "models\\oculus-touch-v2-left.glb"
+            }
+        },
+        "50": {
+            "link": {
+                "name": "controller_plyShape.006",
+                "file": "models\\oculus-touch-v2-left.glb"
+            }
+        },
+        "51": {
+            "link": {
+                "name": "controller_plyShape.004",
+                "file": "models\\oculus-touch-v2-left.glb"
+            }
+        },
+        "52": {
+            "link": {
+                "name": "controller_plyShape.002",
+                "file": "models\\oculus-touch-v2-left.glb"
+            }
+        },
+        "89": {
+            "link": {
+                "name": "controller_plyShape.004",
+                "file": "models\\oculus-touch-v2-right.glb"
+            }
+        },
+        "90": {
+            "link": {
+                "name": "controller_plyShape.005",
+                "file": "models\\oculus-touch-v2-right.glb"
+            }
+        },
+        "91": {
+            "link": {
+                "name": "controller_plyShape",
+                "file": "models\\oculus-touch-v2-right.glb"
+            }
+        },
+        "92": {
+            "link": {
+                "name": "controller_plyShape.002",
+                "file": "models\\oculus-touch-v2-right.glb"
+            }
+        },
+        "93": {
+            "link": {
+                "name": "controller_plyShape.003",
+                "file": "models\\oculus-touch-v2-right.glb"
+            }
+        },
+        "94": {
+            "link": {
+                "name": "controller_plyShape.001",
+                "file": "models\\oculus-touch-v2-right.glb"
+            }
+        },
+        "132": {
+            "link": {
+                "name": "Mesh",
+                "file": "models\\hand-left.glb"
+            },
+            "name": "HandLeft"
+        },
+        "165": {
+            "link": {
+                "name": "Mesh.001",
+                "file": "models\\hand-right.glb"
+            },
+            "name": "HandRight"
+        },
+        "195": {
+            "link": {
+                "name": "Cube.001",
+                "file": "models\\button.glb"
+            },
+            "name": "Button"
+        },
+        "207": {
+            "link": {
+                "name": "TeleportIndicator",
+                "file": "models\\teleport-indicator.glb"
+            }
+        },
+        "374": {
+            "link": {
+                "name": "Cylinder.042_langue_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "375": {
+            "link": {
+                "name": "Cylinder.120_peau_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "376": {
+            "link": {
+                "name": "Cylinder.120_oeils_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "377": {
+            "link": {
+                "name": "Cylinder.120_rose_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "378": {
+            "link": {
+                "name": "Cylinder.208_peau_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "379": {
+            "link": {
+                "name": "Cylinder.208_oeils_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "380": {
+            "link": {
+                "name": "Cylinder.109_peau_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "381": {
+            "link": {
+                "name": "Cylinder.109_oeils_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "382": {
+            "link": {
+                "name": "Cylinder.109_langue_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "383": {
+            "link": {
+                "name": "Paper_Paper_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "384": {
+            "link": {
+                "name": "Paper_Paper_0-uv1",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "385": {
+            "link": {
+                "name": "Paper2_Paper2_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "386": {
+            "link": {
+                "name": "Paper2_Paper2_0-uv1",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "387": {
+            "link": {
+                "name": "Paper3_Material #27_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "388": {
+            "link": {
+                "name": "Paper3_Material #27_0-uv1",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "389": {
+            "link": {
+                "name": "Object_2",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "390": {
+            "link": {
+                "name": "GLTFNode_5",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "391": {
+            "link": {
+                "name": "GLTFNode_6",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "392": {
+            "link": {
+                "name": "Object_4",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "393": {
+            "link": {
+                "name": "Object_5",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "394": {
+            "link": {
+                "name": "Object_6",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "395": {
+            "link": {
+                "name": "Object_7",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "396": {
+            "link": {
+                "name": "Object_8",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "397": {
+            "link": {
+                "name": "Object_9",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "398": {
+            "link": {
+                "name": "Object_10",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "399": {
+            "link": {
+                "name": "Object_11",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "400": {
+            "link": {
+                "name": "Object_12",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "401": {
+            "link": {
+                "name": "Object_13",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "402": {
+            "link": {
+                "name": "Object_14",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "403": {
+            "link": {
+                "name": "Object_15",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "404": {
+            "link": {
+                "name": "Object_16",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "405": {
+            "link": {
+                "name": "Object_17",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "406": {
+            "link": {
+                "name": "Plane",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "407": {
+            "link": {
+                "name": "Plane_1_Black_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "408": {
+            "link": {
+                "name": "Plane_Black_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "409": {
+            "link": {
+                "name": "Cylinder_1_gray_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "410": {
+            "link": {
+                "name": "Cylinder_2_gray_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "411": {
+            "link": {
+                "name": "Sphere_3_gray_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "412": {
+            "link": {
+                "name": "Sphere_2_gray_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "413": {
+            "link": {
+                "name": "Sphere_1_gray_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "414": {
+            "link": {
+                "name": "Sphere_gray_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "415": {
+            "link": {
+                "name": "Cylinder_gray_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "416": {
+            "link": {
+                "name": "Object_2.0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "417": {
+            "link": {
+                "name": "Object_2.1",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "418": {
+            "link": {
+                "name": "Object_2.2",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "419": {
+            "link": {
+                "name": "Object_2.3",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "420": {
+            "link": {
+                "name": "Object_2.4",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "421": {
+            "link": {
+                "name": "Object_2.5",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "422": {
+            "link": {
+                "name": "Object_6.0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "423": {
+            "link": {
+                "name": "Object_8.0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "424": {
+            "link": {
+                "name": "Object_10.0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "425": {
+            "link": {
+                "name": "Object_12.0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "426": {
+            "link": {
+                "name": "Object_14.0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "427": {
+            "link": {
+                "name": "Object_16.0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "428": {
+            "link": {
+                "name": "Object_18",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "429": {
+            "link": {
+                "name": "Object_20",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "430": {
+            "link": {
+                "name": "Object_22",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "431": {
+            "link": {
+                "name": "Object_24",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "432": {
+            "link": {
+                "name": "Object_26",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "433": {
+            "link": {
+                "name": "Object_28",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "434": {
+            "link": {
+                "name": "Object_30",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "435": {
+            "link": {
+                "name": "Object_32",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "436": {
+            "link": {
+                "name": "Object_34",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "437": {
+            "link": {
+                "name": "Object_36",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "438": {
+            "link": {
+                "name": "Object_38",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "439": {
+            "link": {
+                "name": "Object_40",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "440": {
+            "link": {
+                "name": "Object_42",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "441": {
+            "link": {
+                "name": "Object_44",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "442": {
+            "link": {
+                "name": "Object_46",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "443": {
+            "link": {
+                "name": "Object_48",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "444": {
+            "link": {
+                "name": "Object_50",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "445": {
+            "link": {
+                "name": "Object_52",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "446": {
+            "link": {
+                "name": "Object_54",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "447": {
+            "link": {
+                "name": "Object_56",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "448": {
+            "link": {
+                "name": "Object_58",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "449": {
+            "link": {
+                "name": "Object_60",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "450": {
+            "link": {
+                "name": "Object_62",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "451": {
+            "link": {
+                "name": "Object_64",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "452": {
+            "link": {
+                "name": "Object_67",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "453": {
+            "link": {
+                "name": "Object_69",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "454": {
+            "link": {
+                "name": "Object_3",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "455": {
+            "link": {
+                "name": "Object_5.0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "456": {
+            "link": {
+                "name": "Object_6.1",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "457": {
+            "link": {
+                "name": "Object_8.1",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "458": {
+            "link": {
+                "name": "Object_9.0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "459": {
+            "link": {
+                "name": "Object_4.0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "460": {
+            "link": {
+                "name": "Object_6.2",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "461": {
+            "link": {
+                "name": "Object_8.2",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "462": {
+            "link": {
+                "name": "Object_10.1",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "463": {
+            "link": {
+                "name": "desk clock_Mat_Body_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "464": {
+            "link": {
+                "name": "desk clock_Mat_Body_0-uv1",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "465": {
+            "link": {
+                "name": "desk clock_Mat_Plate_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "466": {
+            "link": {
+                "name": "desk clock_Mat_Plate_0-uv1",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "467": {
+            "link": {
+                "name": "GLTFNode_5.0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "468": {
+            "link": {
+                "name": "GLTFNode_6.0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "469": {
+            "link": {
+                "name": "GLTFNode_7",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "470": {
+            "link": {
+                "name": "GLTFNode_8",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "471": {
+            "link": {
+                "name": "GLTFNode_9",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "472": {
+            "link": {
+                "name": "GLTFNode_11",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "473": {
+            "link": {
+                "name": "Object_4.1",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "474": {
+            "link": {
+                "name": "Sphere",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "475": {
+            "link": {
+                "name": "Sphere-uv1",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "476": {
+            "link": {
+                "name": "Plane.001_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "477": {
+            "link": {
+                "name": "Plane.002_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "478": {
+            "link": {
+                "name": "Plane_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "479": {
+            "link": {
+                "name": "Material2",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "480": {
+            "link": {
+                "name": "Material2.0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "481": {
+            "link": {
+                "name": "Object_4.2",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "482": {
+            "link": {
+                "name": "Object_6.3",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "483": {
+            "link": {
+                "name": "Object_8.3",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "484": {
+            "link": {
+                "name": "Object_10.2",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "485": {
+            "link": {
+                "name": "Object_12.1",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "486": {
+            "link": {
+                "name": "Object_14.1",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "487": {
+            "link": {
+                "name": "Cube_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "488": {
+            "link": {
+                "name": "Cube.004_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "489": {
+            "link": {
+                "name": "Cube_0.0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "490": {
+            "link": {
+                "name": "GLTFNode_5.1",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "491": {
+            "link": {
+                "name": "GLTFNode_7.0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "492": {
+            "link": {
+                "name": "GLTFNode_9.0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "493": {
+            "link": {
+                "name": "C#_C#_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "494": {
+            "link": {
+                "name": "C#_C#_0-uv1",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "495": {
+            "link": {
+                "name": "lambert3",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "496": {
+            "link": {
+                "name": "lambert2",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "497": {
+            "link": {
+                "name": "Amazon Logo_01 - Default_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "498": {
+            "link": {
+                "name": "Object_2.6",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "499": {
+            "link": {
+                "name": "Object_3.0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "500": {
+            "link": {
+                "name": "Cylinder",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "501": {
+            "link": {
+                "name": "Cylinder-uv1",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "502": {
+            "link": {
+                "name": "Sphere.0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "503": {
+            "link": {
+                "name": "Sphere-uv1.0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "504": {
+            "link": {
+                "name": "Object_4.3",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "505": {
+            "link": {
+                "name": "Object_5.1",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "506": {
+            "link": {
+                "name": "pCube1_lambert1_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "507": {
+            "link": {
+                "name": "pCube1_lambert34_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "508": {
+            "link": {
+                "name": "pCube2_lambert1_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "509": {
+            "link": {
+                "name": "pCube2_lambert35_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "510": {
+            "link": {
+                "name": "polySurface1_lambert1_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "511": {
+            "link": {
+                "name": "polySurface3_lambert12_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "512": {
+            "link": {
+                "name": "pCube6_lambert13_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "513": {
+            "link": {
+                "name": "pCube7_lambert15_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "514": {
+            "link": {
+                "name": "pCube8_lambert14_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "515": {
+            "link": {
+                "name": "pCube9_phongE4_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "516": {
+            "link": {
+                "name": "pCube13_phongE1_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "517": {
+            "link": {
+                "name": "pCube14_lambert16_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "518": {
+            "link": {
+                "name": "pCube15_lambert1_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "519": {
+            "link": {
+                "name": "pCube16_phongE6_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "520": {
+            "link": {
+                "name": "pCube17_surfaceShader1_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "521": {
+            "link": {
+                "name": "pCube17_phongE8_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "522": {
+            "link": {
+                "name": "pCube18_lambert1_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "523": {
+            "link": {
+                "name": "pCube18_lambert36_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "524": {
+            "link": {
+                "name": "pCube19_lambert17_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "525": {
+            "link": {
+                "name": "pCube24_lambert33_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "526": {
+            "link": {
+                "name": "pCube24_lambert1_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "527": {
+            "link": {
+                "name": "pCylinder2_lambert38_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "528": {
+            "link": {
+                "name": "pCube25_lambert19_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "529": {
+            "link": {
+                "name": "pCube27_lambert25_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "530": {
+            "link": {
+                "name": "pCube29_lambert18_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "531": {
+            "link": {
+                "name": "pCube30_lambert20_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "532": {
+            "link": {
+                "name": "pCube31_lambert24_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "533": {
+            "link": {
+                "name": "pCube32_lambert21_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "534": {
+            "link": {
+                "name": "pCube33_lambert22_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "535": {
+            "link": {
+                "name": "pCube34_lambert1_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "536": {
+            "link": {
+                "name": "pCube35_lambert1_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "537": {
+            "link": {
+                "name": "pCube43_lambert1_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "538": {
+            "link": {
+                "name": "pCube43_shadingMap1_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "539": {
+            "link": {
+                "name": "pCube43_surfaceShader4_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "540": {
+            "link": {
+                "name": "pCube44_shadingMap6_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "541": {
+            "link": {
+                "name": "pCube45_lambert7_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "542": {
+            "link": {
+                "name": "pCube45_lambert10_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "543": {
+            "link": {
+                "name": "pCube45_lambert8_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "544": {
+            "link": {
+                "name": "pCube46_lambert27_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "545": {
+            "link": {
+                "name": "pCube47_lambert26_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "546": {
+            "link": {
+                "name": "pCube48_lambert28_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "547": {
+            "link": {
+                "name": "pCube49_lambert29_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "548": {
+            "link": {
+                "name": "pCube50_lambert31_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "549": {
+            "link": {
+                "name": "pCube51_lambert30_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "550": {
+            "link": {
+                "name": "pCube52_lambert1_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "551": {
+            "link": {
+                "name": "pCube53_lambert1_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "552": {
+            "link": {
+                "name": "pCube54_lambert1_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "553": {
+            "link": {
+                "name": "pCube55_lambert1_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "554": {
+            "link": {
+                "name": "pCube56_lambert1_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "555": {
+            "link": {
+                "name": "pCube57_lambert1_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "556": {
+            "link": {
+                "name": "sketchfablogo",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "557": {
+            "link": {
+                "name": "sketchfablogo-uv1",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "558": {
+            "link": {
+                "name": "MaleDummyDancer",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "559": {
+            "link": {
+                "name": "MaleDummyDancer-uv1",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "560": {
+            "link": {
+                "name": "Cube_0.1",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "561": {
+            "link": {
+                "name": "Cube.001_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "562": {
+            "link": {
+                "name": "Cube.004_0.0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "563": {
+            "link": {
+                "name": "Stereo textured mesh_Material0_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "564": {
+            "link": {
+                "name": "Stereo textured mesh_Material0_0.0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "565": {
+            "link": {
+                "name": "Stereo textured mesh_Material0_0.1",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "566": {
+            "link": {
+                "name": "Stereo textured mesh_Material0_0.2",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "567": {
+            "link": {
+                "name": "GLTFNode_3",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "568": {
+            "link": {
+                "name": "hands:Lhand",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "569": {
+            "link": {
+                "name": "Project",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "570": {
+            "link": {
+                "name": "MaleDummyDancer.0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "571": {
+            "link": {
+                "name": "MaleDummyDancer-uv1.0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "572": {
+            "link": {
+                "name": "Sphere.1",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "573": {
+            "link": {
+                "name": "Sphere-uv1.1",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "574": {
+            "link": {
+                "name": "Object_5.2",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "575": {
+            "link": {
+                "name": "Object_7.0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "576": {
+            "link": {
+                "name": "Object_9.1",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "577": {
+            "link": {
+                "name": "Object_11.0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "578": {
+            "link": {
+                "name": "Object_13.0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "579": {
+            "link": {
+                "name": "Object_15.0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "580": {
+            "link": {
+                "name": "Object_17.0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "581": {
+            "link": {
+                "name": "Object_19",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "582": {
+            "link": {
+                "name": "Object_21",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "583": {
+            "link": {
+                "name": "Object_23",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "584": {
+            "link": {
+                "name": "Object_25",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "585": {
+            "link": {
+                "name": "Object_26.0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "586": {
+            "link": {
+                "name": "Object_27",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "587": {
+            "link": {
+                "name": "Object_29",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "588": {
+            "link": {
+                "name": "GLTFNode_18",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "589": {
+            "link": {
+                "name": "GLTFNode_15",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "590": {
+            "link": {
+                "name": "GLTFNode_17",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "591": {
+            "link": {
+                "name": "100dol",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "592": {
+            "link": {
+                "name": "StudentProjects",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "593": {
+            "link": {
+                "name": "InfoSessionP3V4",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "594": {
+            "link": {
+                "name": "Cube",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "595": {
+            "link": {
+                "name": "Cube-uv1",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        }
+    },
+    "textures": {
+        "44": {
+            "link": {
+                "name": "texture_0",
+                "file": "models\\oculus-touch-v2-left.glb"
+            }
+        },
+        "45": {
+            "link": {
+                "name": "texture_1",
+                "file": "models\\oculus-touch-v2-left.glb"
+            }
+        },
+        "86": {
+            "link": {
+                "name": "texture_0",
+                "file": "models\\oculus-touch-v2-right.glb"
+            }
+        },
+        "87": {
+            "link": {
+                "name": "texture_1",
+                "file": "models\\oculus-touch-v2-right.glb"
+            }
+        },
+        "244": {
+            "link": {
+                "name": "Paper_normal_2",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "245": {
+            "link": {
+                "name": "Quest_Screen_baseColor_5",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "246": {
+            "link": {
+                "name": "Quest_Linsen_normal_6",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "247": {
+            "link": {
+                "name": "material_0_baseColor_0_2",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "248": {
+            "link": {
+                "name": "Colchon_normal_2",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "249": {
+            "link": {
+                "name": "Madera_normal_5",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "250": {
+            "link": {
+                "name": "Tela_normal_8",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "251": {
+            "link": {
+                "name": "Edredon_normal_11",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "252": {
+            "link": {
+                "name": "material_normal_2",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "253": {
+            "link": {
+                "name": "Sketch_normal_2",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "254": {
+            "link": {
+                "name": "material_0_normal_1",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        }
+    },
+    "images": {
+        "42": {
+            "link": {
+                "name": "Image_0",
+                "file": "models\\oculus-touch-v2-left.glb"
+            },
+            "maxSize": [
+                1024,
+                1024
+            ]
+        },
+        "43": {
+            "link": {
+                "name": "Image_1",
+                "file": "models\\oculus-touch-v2-left.glb"
+            },
+            "maxSize": [
+                256,
+                256
+            ]
+        },
+        "84": {
+            "link": {
+                "name": "Image_0",
+                "file": "models\\oculus-touch-v2-right.glb"
+            },
+            "maxSize": [
+                1024,
+                1024
+            ]
+        },
+        "85": {
+            "link": {
+                "name": "Image_1",
+                "file": "models\\oculus-touch-v2-right.glb"
+            },
+            "maxSize": [
+                256,
+                256
+            ]
+        },
+        "233": {
+            "link": {
+                "name": "Paper_normal_2",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "234": {
+            "link": {
+                "name": "Quest_Screen_baseColor_5",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "235": {
+            "link": {
+                "name": "Quest_Linsen_normal_6",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "236": {
+            "link": {
+                "name": "material_0_baseColor_0_2",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "237": {
+            "link": {
+                "name": "Colchon_normal_2",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "238": {
+            "link": {
+                "name": "Madera_normal_5",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "239": {
+            "link": {
+                "name": "Tela_normal_8",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "240": {
+            "link": {
+                "name": "Edredon_normal_11",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "241": {
+            "link": {
+                "name": "material_normal_2",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "242": {
+            "link": {
+                "name": "Sketch_normal_2",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "243": {
+            "link": {
+                "name": "material_0_normal_1",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        }
+    },
+    "materials": {
+        "DefaultFontMaterial": {
+            "link": {
+                "name": "DefaultFontMaterial",
+                "file": "default"
+            },
+            "Text": {
+                "effectColor": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "font": "230"
+            }
+        },
+        "20": {
+            "name": "White",
+            "shader": "Phong",
+            "Phong": {
+                "specularColor": [
+                    9.999899930335232e-7,
+                    9.99993744699168e-7,
+                    9.999999974752427e-7,
+                    1.0
+                ],
+                "shininess": 1
+            }
+        },
+        "22": {
+            "name": "Pink",
+            "Phong": {
+                "diffuseColor": [
+                    0.9098039,
+                    0.0,
+                    0.5411764,
+                    1.0
+                ],
+                "specularColor": [
+                    9.999899930335232e-7,
+                    9.999911299019004e-7,
+                    9.999999974752427e-7,
+                    1.0
+                ],
+                "shininess": 10,
+                "ambientColor": [
+                    0.317647,
+                    0.0,
+                    0.2165777,
+                    1.0
+                ]
+            }
+        },
+        "25": {
+            "name": "Yellow",
+            "Phong": {
+                "diffuseColor": [
+                    1.0,
+                    0.8039215,
+                    0.0,
+                    1.0
+                ],
+                "specularColor": [
+                    9.999999974752427e-7,
+                    9.999899930335232e-7,
+                    9.999899930335232e-7,
+                    1.0
+                ],
+                "ambientColor": [
+                    0.3843137,
+                    0.3089579,
+                    0.0,
+                    1.0
+                ]
+            }
+        },
+        "26": {
+            "name": "Green",
+            "Phong": {
+                "diffuseColor": [
+                    0.1529411,
+                    0.7882353,
+                    0.5411764,
+                    1.0
+                ],
+                "specularColor": [
+                    9.999999974752427e-7,
+                    9.999899930335232e-7,
+                    9.999899930335232e-7,
+                    1.0
+                ],
+                "ambientColor": [
+                    0.0,
+                    0.2352941,
+                    0.1437908,
+                    1.0
+                ]
+            }
+        },
+        "46": {
+            "link": {
+                "name": "skel_controller_materials_controllerMTL1",
+                "file": "models\\oculus-touch-v2-left.glb"
+            },
+            "name": "ControllerLeft"
+        },
+        "88": {
+            "link": {
+                "name": "skel_controller_materials_controllerMTL",
+                "file": "models\\oculus-touch-v2-right.glb"
+            },
+            "name": "ControllerRight"
+        },
+        "128": {
+            "name": "Cursor",
+            "shader": "Phong",
+            "Phong": {
+                "specularColor": [
+                    9.999899930335232e-7,
+                    9.99993744699168e-7,
+                    9.999999974752427e-7,
+                    1.0
+                ],
+                "shininess": 1
+            },
+            "pipeline": "34"
+        },
+        "131": {
+            "link": {
+                "name": "Default_Material",
+                "file": "models\\hand-left.glb"
+            },
+            "name": "HandLeft"
+        },
+        "164": {
+            "link": {
+                "name": "lambert2",
+                "file": "models\\hand-right.glb"
+            },
+            "name": "HandRight"
+        },
+        "201": {
+            "link": {
+                "name": "DefaultFontMaterial",
+                "file": "default"
+            },
+            "name": "TextAccent",
+            "Text": {
+                "color": [
+                    0.9098039,
+                    0.0,
+                    0.5411764,
+                    1.0
+                ],
+                "font": "230"
+            }
+        },
+        "202": {
+            "name": "Dark",
+            "shader": "Phong",
+            "Phong": {
+                "specularColor": [
+                    9.999899930335232e-7,
+                    9.99993744699168e-7,
+                    9.999999974752427e-7,
+                    1.0
+                ],
+                "shininess": 1,
+                "diffuseColor": [
+                    0.1686274,
+                    0.1686257,
+                    0.1686257,
+                    1.0
+                ],
+                "ambientColor": [
+                    0.0274509,
+                    0.0274507,
+                    0.0274507,
+                    1.0
+                ]
+            }
+        },
+        "203": {
+            "name": "GreenHover",
+            "Phong": {
+                "diffuseColor": [
+                    0.4894117,
+                    0.917647,
+                    0.7511102,
+                    1.0
+                ],
+                "specularColor": [
+                    9.999999974752427e-7,
+                    9.999899930335232e-7,
+                    9.999899930335232e-7,
+                    1.0
+                ],
+                "ambientColor": [
+                    0.0,
+                    0.3294117,
+                    0.2013071,
+                    1.0
+                ]
+            }
+        },
+        "206": {
+            "link": {
+                "name": "TeleportIndicator",
+                "file": "models\\teleport-indicator.glb"
+            },
+            "Phong": {
+                "diffuseColor": [
+                    0.6862745,
+                    0.6862676,
+                    0.6862676,
+                    1.0
+                ]
+            },
+            "pipeline": "34",
+            "Flat": {
+                "color": [
+                    0.8392156,
+                    0.8392072,
+                    0.8392072,
+                    1.0
+                ]
+            }
+        },
+        "255": {
+            "link": {
+                "name": "langue_14",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "256": {
+            "link": {
+                "name": "peau_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "257": {
+            "link": {
+                "name": "oeils_1",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "258": {
+            "link": {
+                "name": "rose_5",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "259": {
+            "link": {
+                "name": "peau_0.0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "260": {
+            "link": {
+                "name": "oeils_3",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "261": {
+            "link": {
+                "name": "langue_8",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "262": {
+            "link": {
+                "name": "Paper_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "263": {
+            "link": {
+                "name": "Paper2_1",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "264": {
+            "link": {
+                "name": "Material_27_2",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "265": {
+            "link": {
+                "name": "Material.001_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "266": {
+            "link": {
+                "name": "YouTubeRed_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "267": {
+            "link": {
+                "name": "YouTubeWhite_1",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "268": {
+            "link": {
+                "name": "white",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "269": {
+            "link": {
+                "name": "Quest_Stecker_2",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "270": {
+            "link": {
+                "name": "Quest_Samt_3",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "271": {
+            "link": {
+                "name": "Quest_Foam_4",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "272": {
+            "link": {
+                "name": "Quest_Plastik_6",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "273": {
+            "link": {
+                "name": "Quest_Kamera_Linsen_7",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "274": {
+            "link": {
+                "name": "Quest_Kamera_8",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "275": {
+            "link": {
+                "name": "Quest_Samt_2_9",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "276": {
+            "link": {
+                "name": "Quest_Screen_10",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "277": {
+            "link": {
+                "name": "Quest_Gummi_Linse_11",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "278": {
+            "link": {
+                "name": "Quest_Lautstrketaste_12",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "279": {
+            "link": {
+                "name": "Quest_Linsen_13",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "280": {
+            "link": {
+                "name": "purple 1",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "281": {
+            "link": {
+                "name": "Black_14",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "282": {
+            "link": {
+                "name": "purple",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "283": {
+            "link": {
+                "name": "gray_11",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "284": {
+            "link": {
+                "name": "purple 2",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "285": {
+            "link": {
+                "name": "purple 4",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "286": {
+            "link": {
+                "name": "purple 5",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "287": {
+            "link": {
+                "name": "purple 3",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "288": {
+            "link": {
+                "name": "material_0_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "289": {
+            "link": {
+                "name": "purple 9",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "290": {
+            "link": {
+                "name": "purple 10",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "291": {
+            "link": {
+                "name": "purple 6",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "292": {
+            "link": {
+                "name": "Colchon_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "293": {
+            "link": {
+                "name": "Madera_1",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "294": {
+            "link": {
+                "name": "Tela_2",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "295": {
+            "link": {
+                "name": "Edredon_3",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "296": {
+            "link": {
+                "name": "Mat_Body_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "297": {
+            "link": {
+                "name": "Mat_Plate_1",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "298": {
+            "link": {
+                "name": "FrontColor_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "299": {
+            "link": {
+                "name": "Windows_1",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "300": {
+            "link": {
+                "name": "CreamWall_2",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "301": {
+            "link": {
+                "name": "Basement_3",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "302": {
+            "link": {
+                "name": "Roof_4",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "303": {
+            "link": {
+                "name": "Pavement_5",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "304": {
+            "link": {
+                "name": "color_16776535_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "305": {
+            "link": {
+                "name": "Scene_-_Root_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "306": {
+            "link": {
+                "name": "Color_H04_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "307": {
+            "link": {
+                "name": "Material.001_0.0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "308": {
+            "link": {
+                "name": "Material.002_1",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "309": {
+            "link": {
+                "name": "Material.003_2",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "310": {
+            "link": {
+                "name": "Material.004_3",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "311": {
+            "link": {
+                "name": "Material.001_0.1",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "312": {
+            "link": {
+                "name": "logo_1",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "313": {
+            "link": {
+                "name": "material_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "314": {
+            "link": {
+                "name": "lambert3_1",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "315": {
+            "link": {
+                "name": "01_-_Default_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "316": {
+            "link": {
+                "name": "METAL_2_2",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "317": {
+            "link": {
+                "name": "GLASS_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "318": {
+            "link": {
+                "name": "Jet",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "319": {
+            "link": {
+                "name": "METAL.001_1",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "320": {
+            "link": {
+                "name": "lambert1_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "321": {
+            "link": {
+                "name": "lambert34_1",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "322": {
+            "link": {
+                "name": "lambert35_2",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "323": {
+            "link": {
+                "name": "lambert12_3",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "324": {
+            "link": {
+                "name": "lambert13_4",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "325": {
+            "link": {
+                "name": "lambert15_5",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "326": {
+            "link": {
+                "name": "lambert14_6",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "327": {
+            "link": {
+                "name": "phongE4_7",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "328": {
+            "link": {
+                "name": "phongE1_8",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "329": {
+            "link": {
+                "name": "lambert16_9",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "330": {
+            "link": {
+                "name": "phongE6_10",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "331": {
+            "link": {
+                "name": "surfaceShader1_11",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "332": {
+            "link": {
+                "name": "phongE8_12",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "333": {
+            "link": {
+                "name": "lambert36_13",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "334": {
+            "link": {
+                "name": "lambert17_14",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "335": {
+            "link": {
+                "name": "lambert33_15",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "336": {
+            "link": {
+                "name": "lambert38_16",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "337": {
+            "link": {
+                "name": "lambert19_17",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "338": {
+            "link": {
+                "name": "lambert25_18",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "339": {
+            "link": {
+                "name": "lambert18_19",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "340": {
+            "link": {
+                "name": "lambert20_20",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "341": {
+            "link": {
+                "name": "lambert24_21",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "342": {
+            "link": {
+                "name": "lambert21_22",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "343": {
+            "link": {
+                "name": "lambert22_23",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "344": {
+            "link": {
+                "name": "shadingMap1_24",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "345": {
+            "link": {
+                "name": "surfaceShader4_25",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "346": {
+            "link": {
+                "name": "shadingMap6_26",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "347": {
+            "link": {
+                "name": "lambert7_27",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "348": {
+            "link": {
+                "name": "lambert10_28",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "349": {
+            "link": {
+                "name": "lambert8_29",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "350": {
+            "link": {
+                "name": "lambert27_30",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "351": {
+            "link": {
+                "name": "lambert26_31",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "352": {
+            "link": {
+                "name": "lambert28_32",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "353": {
+            "link": {
+                "name": "lambert29_33",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "354": {
+            "link": {
+                "name": "lambert31_34",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "355": {
+            "link": {
+                "name": "lambert30_35",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "356": {
+            "link": {
+                "name": "Sketch_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "357": {
+            "link": {
+                "name": "DanceAnimationsMaterial",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "358": {
+            "link": {
+                "name": "Salute_1",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "359": {
+            "link": {
+                "name": "Laying_down_2",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "360": {
+            "link": {
+                "name": "Fight_2_5",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "361": {
+            "link": {
+                "name": "Material0_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "362": {
+            "link": {
+                "name": "material_0_0.0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "363": {
+            "link": {
+                "name": "person",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "364": {
+            "link": {
+                "name": "RedV2",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "365": {
+            "link": {
+                "name": "aiAmbientOcclusion1SG_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "366": {
+            "link": {
+                "name": "aiStandardSurface5SG_2",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "367": {
+            "link": {
+                "name": "initialShadingGroup_3",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "368": {
+            "link": {
+                "name": "aiStandardSurface3SG_4",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "369": {
+            "link": {
+                "name": "FrontCol_1",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "370": {
+            "link": {
+                "name": "100dol",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "371": {
+            "link": {
+                "name": "InfoSessionStudentProjects",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "372": {
+            "link": {
+                "name": "InfoSessionP3Material",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "373": {
+            "link": {
+                "name": "Default-Material",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        }
+    },
+    "shaders": {
+        "1": {
+            "link": {
+                "name": "DistanceFieldVector Textured.frag",
+                "file": "default"
+            }
+        },
+        "2": {
+            "link": {
+                "name": "Flat.frag",
+                "file": "default"
+            }
+        },
+        "3": {
+            "link": {
+                "name": "Flat Textured.frag",
+                "file": "default"
+            }
+        },
+        "4": {
+            "link": {
+                "name": "MeshVisualizer.frag",
+                "file": "default"
+            }
+        },
+        "5": {
+            "link": {
+                "name": "Phong.frag",
+                "file": "default"
+            }
+        },
+        "6": {
+            "link": {
+                "name": "Phong Textured.frag",
+                "file": "default"
+            }
+        },
+        "28": {
+            "link": {
+                "name": "Dynamic.vert",
+                "file": "default"
+            }
+        },
+        "29": {
+            "link": {
+                "name": "Particle Textured.frag",
+                "file": "default"
+            }
+        },
+        "30": {
+            "link": {
+                "name": "Skinning.vert",
+                "file": "default"
+            }
+        },
+        "31": {
+            "link": {
+                "name": "Static.frag",
+                "file": "default"
+            }
+        },
+        "32": {
+            "link": {
+                "name": "DistanceFieldVector.frag",
+                "file": "default"
+            }
+        },
+        "37": {
+            "link": {
+                "name": "Particle.frag",
+                "file": "default"
+            }
+        },
+        "217": {
+            "link": {
+                "name": "Background.frag",
+                "file": "default"
+            }
+        },
+        "218": {
+            "link": {
+                "name": "Depth.frag",
+                "file": "default"
+            }
+        },
+        "220": {
+            "link": {
+                "name": "FullScreenTriangle.vert",
+                "file": "default"
+            }
+        },
+        "221": {
+            "link": {
+                "name": "Physical.frag",
+                "file": "default"
+            }
+        },
+        "224": {
+            "link": {
+                "name": "Sky.frag",
+                "file": "default"
+            }
+        },
+        "225": {
+            "link": {
+                "name": "Text.frag",
+                "file": "default"
+            }
+        },
+        "227": {
+            "link": {
+                "name": "Text.vert",
+                "file": "default"
+            }
+        },
+        "228": {
+            "link": {
+                "name": "TileFeedback.frag",
+                "file": "default"
+            }
+        }
+    },
+    "settings": {
+        "project": {
+            "name": "MyWonderland",
+            "version": [
+                0,
+                9,
+                5
+            ]
+        },
+        "vr": {
+            "leftEyeObject": "18",
+            "rightEyeObject": "19"
+        },
+        "scripting": {
+            "sourcePaths": [
+                "/js/editor-components-bundle.js",
+                "js/",
+                "js/gltf loading.js"
+            ]
+        },
+        "runtime": {
+            "visualizeColliders": false,
+            "webxr": {
+                "optionalFeatures": {
+                    "local-floor": true
+                }
+            },
+            "enableRuntimeGltf": true
+        }
+    },
+    "animations": {
+        "1639": {
+            "link": {
+                "name": "P3Animator",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "1640": {
+            "link": {
+                "name": "Male Dancer",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        },
+        "1641": {
+            "link": {
+                "name": "Male Dancer.0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            }
+        }
+    },
+    "skins": {
+        "133": {
+            "link": {
+                "name": "Armature",
+                "file": "models\\hand-left.glb"
+            },
+            "name": "HandLeftSkin",
+            "joints": [
+                "139",
+                "140",
+                "141",
+                "142",
+                "143",
+                "144",
+                "145",
+                "146",
+                "147",
+                "148",
+                "149",
+                "150",
+                "151",
+                "152",
+                "153",
+                "154",
+                "155",
+                "156",
+                "157",
+                "158",
+                "159",
+                "160",
+                "161",
+                "162",
+                "163"
+            ]
+        },
+        "166": {
+            "link": {
+                "name": "Armature",
+                "file": "models\\hand-right.glb"
+            },
+            "name": "HandRightSkin",
+            "joints": [
+                "169",
+                "170",
+                "171",
+                "172",
+                "173",
+                "174",
+                "175",
+                "176",
+                "177",
+                "178",
+                "179",
+                "180",
+                "181",
+                "182",
+                "183",
+                "184",
+                "185",
+                "186",
+                "187",
+                "188",
+                "189",
+                "190",
+                "191",
+                "192",
+                "193"
+            ]
+        },
+        "596": {
+            "link": {
+                "name": "skin_0",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            },
+            "joints": [
+                "1194",
+                "1195",
+                "1196",
+                "1197",
+                "1198",
+                "1199",
+                "1200",
+                "1201",
+                "1202",
+                "1203",
+                "1204",
+                "1206",
+                "1207",
+                "1208",
+                "1209",
+                "1210",
+                "1211",
+                "1213",
+                "1214",
+                "1215",
+                "1217",
+                "1218",
+                "1219",
+                "1221",
+                "1222",
+                "1223",
+                "1224",
+                "1225",
+                "1226",
+                "1227",
+                "1229",
+                "1230",
+                "1231",
+                "1232",
+                "1233",
+                "1234",
+                "1236",
+                "1237",
+                "1238",
+                "1240",
+                "1241",
+                "1242",
+                "1244",
+                "1245",
+                "1246",
+                "1247",
+                "1248",
+                "1249",
+                "1250",
+                "1251",
+                "1252",
+                "1253",
+                "1254"
+            ]
+        },
+        "597": {
+            "link": {
+                "name": "skin_1",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            },
+            "joints": [
+                "1343",
+                "1344",
+                "1346",
+                "1364",
+                "1365",
+                "1366",
+                "1367",
+                "1347",
+                "1348",
+                "1349",
+                "1350",
+                "1351",
+                "1352",
+                "1353",
+                "1354",
+                "1360",
+                "1361",
+                "1362",
+                "1363",
+                "1355",
+                "1356",
+                "1357",
+                "1358",
+                "1359",
+                "1345"
+            ]
+        },
+        "598": {
+            "link": {
+                "name": "skin_2",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            },
+            "joints": [
+                "1371",
+                "1372",
+                "1388",
+                "1389",
+                "1390",
+                "1391",
+                "1379",
+                "1380",
+                "1381",
+                "1382",
+                "1375",
+                "1376",
+                "1377",
+                "1378",
+                "1383",
+                "1384",
+                "1385",
+                "1386",
+                "1387",
+                "1392",
+                "1393",
+                "1394",
+                "1395",
+                "1374",
+                "1373"
+            ]
+        },
+        "599": {
+            "link": {
+                "name": "skin_3",
+                "file": "static\\gltf\\InfoSessionP3V5.gltf"
+            },
+            "joints": [
+                "1399",
+                "1400",
+                "1401",
+                "1402",
+                "1403",
+                "1404",
+                "1405",
+                "1406",
+                "1407",
+                "1408",
+                "1409",
+                "1411",
+                "1412",
+                "1413",
+                "1414",
+                "1415",
+                "1416",
+                "1418",
+                "1419",
+                "1420",
+                "1422",
+                "1423",
+                "1424",
+                "1426",
+                "1427",
+                "1428",
+                "1429",
+                "1430",
+                "1431",
+                "1432",
+                "1434",
+                "1435",
+                "1436",
+                "1437",
+                "1438",
+                "1439",
+                "1441",
+                "1442",
+                "1443",
+                "1445",
+                "1446",
+                "1447",
+                "1449",
+                "1450",
+                "1451",
+                "1452",
+                "1453",
+                "1454",
+                "1455",
+                "1456",
+                "1457",
+                "1458",
+                "1459"
+            ]
+        }
+    },
+    "pipelines": {
+        "33": {
+            "link": {
+                "name": "DistanceFieldVector",
+                "file": "default"
+            }
+        },
+        "34": {
+            "link": {
+                "name": "Flat Opaque",
+                "file": "default"
+            }
+        },
+        "35": {
+            "link": {
+                "name": "Flat Opaque Textured",
+                "file": "default"
+            }
+        },
+        "36": {
+            "link": {
+                "name": "MeshVisualizer",
+                "file": "default"
+            }
+        },
+        "37": {
+            "link": {
+                "name": "Phong Opaque",
+                "file": "default"
+            }
+        },
+        "38": {
+            "link": {
+                "name": "Phong Opaque Textured",
+                "file": "default"
+            }
+        },
+        "39": {
+            "link": {
+                "name": "Foliage",
+                "file": "default"
+            }
+        },
+        "40": {
+            "link": {
+                "name": "Particle",
+                "file": "default"
+            }
+        },
+        "219": {
+            "link": {
+                "name": "Depth",
+                "file": "default"
+            }
+        },
+        "222": {
+            "link": {
+                "name": "Physical Opaque",
+                "file": "default"
+            }
+        },
+        "223": {
+            "link": {
+                "name": "Physical Opaque Textured",
+                "file": "default"
+            }
+        },
+        "226": {
+            "link": {
+                "name": "Text",
+                "file": "default"
+            }
+        },
+        "229": {
+            "link": {
+                "name": "Sky",
+                "file": "default"
+            }
+        },
+        "231": {
+            "link": {
+                "name": "Phong Normalmapped",
+                "file": "default"
+            }
+        },
+        "232": {
+            "link": {
+                "name": "Phong Lightmapped",
+                "file": "default"
+            }
+        }
+    },
+    "files": [
+        "models/oculus-touch-v2-left.glb",
+        "models/oculus-touch-v2-right.glb",
+        "models/hand-left.glb",
+        "models/hand-right.glb",
+        "models/button.glb",
+        "models/teleport-indicator.glb",
+        "static/gltf/InfoSessionP3V5.gltf"
+    ],
+    "fonts": {
+        "230": {
+            "link": {
+                "name": "DejaVuSans.ttf",
+                "file": "default"
+            }
+        }
+    }
+}
